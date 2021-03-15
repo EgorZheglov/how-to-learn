@@ -1,3 +1,4 @@
+/*
 @keyframes rotation {
   from {
       transform: rotate(0deg);
@@ -7,14 +8,19 @@
   }
 } 
 
+
 .page{
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
+  /*
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
+  /*
   margin: 0 auto;
+
   /* выше для экранов больше 1600px отцентрировали весь контент */
+  /*
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -26,20 +32,6 @@
   opacity:0.5;
 }
 
-.header{
-  position:relative;
-  display:flex;
-  align-items:center;
-  flex-flow: wrap;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color:#f2f2f2;
-  overflow: hidden;
-  /* выше установили ограничения для секции */
-}
-/* и элемента с модификатором вида ключ-значение */
-
 .logo{
   width:183px;
 }
@@ -49,15 +41,32 @@
   left:64px;
   height:32px;
 }
+
+/*.header{
+  position:relative;
+  display:flex;
+  align-items:center;
+  flex-flow: wrap;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color:#f2f2f2;
+  overflow: hidden;
+}
+  /* выше установили ограничения для секции */
+
+/*
 .header__title{
   margin: 0;
   margin-left:64px;
   line-height:96px;
-  max-width:730px; /**Не очень понятно, свойства типа Max или Min width(или Height) следует прописывать вообще всегда? для всех текстовых блоков**/
+  max-width:730px; 
   font-size: 102px;
   font-weight:bold;
   z-index:2;
 }
+
+/*
 .header__subtitle{
   max-width:388px;
   margin: 0;
@@ -68,6 +77,7 @@
   line-height:25px;
   z-index:2;
 }
+/*
 .header__square-pic{
   position: absolute;
   width:565px;
@@ -77,7 +87,8 @@
   background-color:#2f80ed;
   animation:rotation 20s infinite linear;
 }
-
+*/
+/*
 .header__link{
   text-decoration:none;
   color:#2f80ed;
@@ -91,6 +102,7 @@
   height:608px;
   z-index:1;
 }
+
 .description{
   display:flex;
   width:100%;
@@ -150,7 +162,6 @@
   flex-direction: row;
   flex-wrap:wrap;
   width:950px;
-  margin-bottom:100px;
 }
 
 .cards__item{
@@ -222,7 +233,8 @@
   margin-top:0px;
   padding-bottom:100px;
 }
-
+*/
+/*
 .khan{
   min-width: 100%;
   background-color:#f2f2f2;
@@ -291,7 +303,6 @@
   margin-right:48px;
 
 }
-
 .khan__buy-link{
   text-decoration:none;
   color:#2f80ed;
@@ -299,7 +310,9 @@
   font-weight:normal;
   font-size:30px;
 }
+*/
 
+/*
 .digits{
   align-items: center;
   display:flex;
@@ -307,25 +320,7 @@
   width:100%;
   flex-direction: column;
 }
-.section-title
-{
-  margin-top:100px;
-  width:60%;
-  text-align:center;
-  font-size:60px;
-  line-height:1.15;
-  font-weight:bold;
-  margin-bottom:20px;
-}
-.section-subtitle
-{
-  margin: 0;
-  width:60%;
-  text-align:center;
-  font-size:24px;
-  line-height:34px;
-  font-weight:normal;
-}
+/*
 .table{
   display:flex;
   flex-direction:row;
@@ -353,6 +348,7 @@
   line-height:1.2;
   font-weight:normal;
 }
+/*
 .feynman{
   min-height:790px;
   padding-top:100px;
@@ -360,7 +356,7 @@
   /**display:flex;
   flex-direction:column;
   background-image:url(../images/feynman.png);
-  align-items:center;**/
+  align-items:center;**//*
   background-color:#f2f2f2;
   flex-direction: column;
   align-items:center;
@@ -429,7 +425,8 @@
   object-fit:fill;
   overflow: visible;
 }
-
+*/
+/*
 .section-title_theme_dark{
   position: relative;
   color:white;
@@ -442,7 +439,7 @@
 /**
 Вот тут не совсем понятно: Нельзя ли просто создать класс theme_dark и использовать его как модификатор и к title и к subtitle?
 **/
-
+/*
 .table_theme_dark{
   margin-bottom:90px;
 }
@@ -451,12 +448,13 @@
   width:200px;
   margin-top:80px;
   font-size:18px;
+  border:1px solid red;
 }
 
 /**Тут так же непонятно: у блоков таблицы очень разные параметры не понятно, в чем смысл подключать
 table__cell, если ВСЕ его параметры будут переопределены? (Как мне сказали, в slack'e - так можно делать)
 **/
-
+/*
 .table__heading_theme_dark{
   position: relative;
   color:white;
@@ -469,7 +467,7 @@ table__cell, если ВСЕ его параметры будут переопр
   color:white;
   z-index:1;
 }
-
+/*
 .resources{
   width:100%;
   display:flex;
@@ -490,7 +488,8 @@ table__cell, если ВСЕ его параметры будут переопр
   width:270px;
   height:38px;
 }
-
+*/
+/*
 .footer
 {
   background-color:#1f1f1f;
