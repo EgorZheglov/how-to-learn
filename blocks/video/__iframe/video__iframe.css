@@ -1,7 +1,7 @@
-.iframe__video{
+.video__iframe{
     margin-right:20px;
   }
   
-  .iframe__video:last-of-type{
+.video__iframe:last-of-type{
     margin-right:0px;
-  }
+}
