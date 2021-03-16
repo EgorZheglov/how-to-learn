@@ -6,70 +6,18 @@
     padding-top:105px;
   }
   
-  .khan__container{
-    display:flex;
-    flex-direction:column;
-    width:80%;
-    margin-top:0px;
-  }
   
-  .khan__author{
-    margin-top:0px;
-    margin-bottom:0px;
-    line-height:42px;
-    font-weight:bold;
-    font-size:30px;
-  }
   
-  .khan__title{
-    margin-top:0px;
-    margin-bottom:50px;
-    line-height:1.15;
-    font-weight:bold;
-    font-size:60px;
-  }
+ 
   
-  .khan__quote{
-    width:790px;
-    margin-top:0px;
-    margin-bottom:36px;
-    line-height:34px;
-    font-weight:normal;
-    font-size:24px;
-  }
-  
-  .khan__quote-author{
-    margin-top:0px;
-    margin-bottom:10px;
-    line-height:1.15;
-    font-weight:bold;
-    font-size:24px;
-  }
-  
-  .khan__quote-author-subline{
-    margin-top:0px;
-    margin-bottom:36px;
-    line-height:1.15;
-    font-weight:normal;
-    font-size:24px;
-  }
-  
-  .khan__book-container{
-    display:flex;
-    margin-top:0px;
-    margin-bottom:0px;
-  }
-  
-  .khan__book-pic{
-    width:620px;
-    height:608px;
-    margin-right:48px;
-  }
 
-  .khan__buy-link{
-    text-decoration:none;
-    color:#2f80ed;
-    line-height:62px;
-    font-weight:normal;
-    font-size:30px;
-  }
+  
+
+ 
+  
+
+  
+ 
+  
+
+
